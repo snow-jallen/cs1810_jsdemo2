@@ -10,4 +10,5 @@ Currently we are adding elements to the DOM by updating the `innerHTML` attribut
 ## Filter
 
 - allow the user to type into the fitler input and change the list of books being displayed
-- make sure your click listeners are still workign after filtering
+   - do this by attaching a listener to the `change` event of the input
+- make sure your click listeners are still working after filtering
