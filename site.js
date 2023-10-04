@@ -4,9 +4,9 @@ import { bookList } from "./books.js";
 const drawBooks = (books) => {
   const bookHTML = (book) => `
     <tr>
-    <td>${book.title}</td>
-    <td>${book.author}</td>
-    <td>${book.summary}</td>
+      <td>${book.title}</td>
+      <td>${book.author}</td>
+      <td>${book.summary}</td>
     </tr>
   `
 
